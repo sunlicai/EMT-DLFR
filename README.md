@@ -7,13 +7,20 @@
 
 ![EMT-DLFR Framework](figs/EMT-DLFR_Architecture.png)
 
-In this paper, we aims to tackle two major challenges on the way towards robust multimodal sentiment analysis (MSA): 
+In this paper, we aims to tackle two major challenges in robust multimodal sentiment analysis (MSA): 
 - *inefficiency* when modeling cross-modal interactions in unaligned multimodal data.
 - *vulnerability* to random modality feature missing which typically occurs in realistic settings.
 
 To this end, we propose Efficient Multimodal Transformer with Dual-Level Feature Restoration (EMT-DLFR):
-- Efficient Multimodal Transformer (EMT). EMT introduces the *global multimodal context* and employs it to interact with *local unimodal features* to enable efficient *global-local* cross-modal interaction, which not only avoids the quadratic scaling cost of previous *local-local* interaction methods (e.g., [MulT](https://github.com/yaohungt/Multimodal-Transformer) and [PMR](https://openaccess.thecvf.com/content/CVPR2021/html/Lv_Progressive_Modality_Reinforcement_for_Human_Multimodal_Emotion_Recognition_From_Unaligned_CVPR_2021_paper.html)) but also leads to performance gains.
-- Dual-Level Feature Restoration (DLFR). Unlike the standalone *implicit low-level feature reconstruction* in [TFR-Net](https://github.com/thuiar/TFR-Net), DLFR combines both *implicit low-level feature reconstruction* and *explicit high-level feature attraction* to achieve robust representation learning from incomplete multimodal data.
+- Efficient Multimodal Transformer (EMT). EMT introduces the *global multimodal context* and 
+employs it to interact with *local unimodal features* to enable efficient *global-local* 
+cross-modal interaction, which not only avoids the quadratic scaling cost of previous 
+*local-local* interaction methods (e.g., [MulT](https://github.com/yaohungt/Multimodal-Transformer), [TFR-Net](https://github.com/thuiar/TFR-Net), and [PMR](https://openaccess.thecvf.com/content/CVPR2021/html/Lv_Progressive_Modality_Reinforcement_for_Human_Multimodal_Emotion_Recognition_From_Unaligned_CVPR_2021_paper.html)) 
+but also leads to performance gains.
+- Dual-Level Feature Restoration (DLFR). Unlike the standalone *implicit low-level 
+feature reconstruction* in [TFR-Net](https://github.com/thuiar/TFR-Net), DLFR combines 
+both *implicit low-level feature reconstruction* and *explicit high-level feature attraction* 
+to more effectively guide EMT to achieve robust representation learning from incomplete multimodal data.
 
 ## Prerequisites
 * `Python 3.8`
@@ -75,7 +82,9 @@ sh scripts/sims/run_once.sh 0
 ## Results
 
 - CMU-MOSI & CMU-MOSEI
+
 ![mosi_mosei_incomplete_table](figs/mosi_mosei_incomplete_table.png)
+
 ![mosi_mosei_incomplete_fig](figs/mosi_mosei_incomplete_fig.png)
 
 
@@ -85,7 +94,10 @@ sh scripts/sims/run_once.sh 0
 
 ![sims_incomplete_fig](figs/sims_incomplete_fig.png)
 
-- Note: since these datasets are relatively small and there exists the randomness caused by different software & hardware settings, the reproduced results might slightly better or worse than those reports in the paper. You can run more times to obtain better results.
+- Note: since these datasets are relatively small and there exists the randomness 
+caused by different software & hardware settings, the reproduced results might 
+slightly better or worse than those reports in the paper. You can run multiple times 
+to obtain more better results.
 
 ## Further Exploration
 Our conversational version for incomplete multimodal learning is open-sourced at [GCNet](https://github.com/zeroQiaoba/GCNet).
@@ -111,6 +123,4 @@ If you think this project is helpful, please feel free to leave a star and cite 
 ## Contact 
 If you have any questions, feel free to contact us.
 
-Licai Sun (sunlicai2019@ia.ac.cn)
-
-Zheng Lian (lianzheng2016@ia.ac.cn)
+Licai Sun: sunlicai2019@ia.ac.cn, or Zheng Lian: lianzheng2016@ia.ac.cn
