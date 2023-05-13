@@ -82,6 +82,7 @@ sh scripts/sims/run_once.sh 0
 - CH-SIMS
 <p align="center">
 <img src="figs/sims_incomplete_table.png" width="50%" alt="" />
+
 ![sims_incomplete_fig](figs/sims_incomplete_fig.png)
 
 - Note: since these datasets are relatively small and there exists the randomness caused by different software & hardware settings, the reproduced results might slightly better or worse than those reports in the paper. You can run more times to obtain better results.
