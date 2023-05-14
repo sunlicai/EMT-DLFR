@@ -97,7 +97,7 @@ sh scripts/sims/run_once.sh 0
 - Note: since these datasets are relatively small and there exists the randomness 
 caused by different software & hardware settings, the reproduced results might 
 slightly better or worse than those reports in the paper. You can run multiple times 
-to obtain more better results.
+and tweak the hyperparameters to obtain more better results.
 
 ## Further Exploration
 Our conversational version for incomplete multimodal learning is open-sourced at [GCNet](https://github.com/zeroQiaoba/GCNet).
