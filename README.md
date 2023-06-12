@@ -36,19 +36,19 @@ Please refer to [environment.yml](environment.yml) for more details.
 
 ## Data Preparation
 - We conduct experiments on three popular MSA datasets, including [CMU-MOSI](https://ieeexplore.ieee.org/abstract/document/7742221/), [CMU-MOSEI](https://aclanthology.org/P18-1208/), and [CH-SIMS](https://aclanthology.org/2020.acl-main.343/).
-- Download pre-pocessed dataset features and pre-trained bert checkpoints from [Google Cloud Drive](https://drive.google.com/drive/folders/1E5kojBirtd5VbfHsFp6FYWkQunk73Nsv?usp=sharing).
-Assume your data structure to be like this:
+- Download pre-pocessed dataset features and pre-trained bert checkpoints from [Baidu Cloud Drive](https://pan.baidu.com/s/1oksuDEkkd3vGg2oBMBxiVw) (code: `ctgs`) or [Google Cloud Drive](https://drive.google.com/drive/folders/1E5kojBirtd5VbfHsFp6FYWkQunk73Nsv?usp=sharing).
+Assume your data structure to be like this (using `sha1sum` command to verify SHA-1 hash value in the parenthesis):
 ```
 |MMSA
     |MOSI
         |Processed
-            |unaligned_50.pkl
+            |unaligned_50.pkl (5da0b8440fc5a7c3a457859af27458beb993e088)
     |MOSEI
         |Processed
-            |unaligned_50.pkl
+            |unaligned_50.pkl (db3e2cff4d706a88ee156981c2100975513d4610)
     |SIMS
         |Processed
-            |unaligned_39.pkl
+            |unaligned_39.pkl (a00c73e92f66896403c09dbad63e242d5af756f8)
 ```
 
 - Go to [config/get_data_root.py](config/get_data_root.py) and change the data root to your own path.
