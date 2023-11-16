@@ -4,6 +4,9 @@
 > [Licai Sun](https://scholar.google.com/citations?user=7qo_cTcAAAAJ&hl=en&oi=ao), [Zheng Lian](https://scholar.google.com/citations?user=S34nWz0AAAAJ&hl=en), [Bin Liu](https://scholar.google.com/citations?user=UEB_5QEAAAAJ&hl=en), and [Jianhua Tao](https://scholar.google.com/citations?user=781jbHMAAAAJ&hl=en)<br>
 > University of Chinese Academy of Sciences & Institute of Automation, Chinese Academy of Sciences & Tsinghua University<br>
 
+## News
+**[2023.11.16]** We upload the [poster](figs/EMT-DLFR_CCAC2023.pdf) of EMT-DLFR for CCAC 2023.<br>
+
 ## Overview
 
 ![EMT-DLFR Framework](figs/EMT-DLFR_Architecture.png)
