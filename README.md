@@ -5,7 +5,8 @@
 > University of Chinese Academy of Sciences & Institute of Automation, Chinese Academy of Sciences & Tsinghua University<br>
 
 ## News
-**[2023.11.16]** We upload the [poster](figs/EMT-DLFR_CCAC2023.pdf) of EMT-DLFR for CCAC 2023.<br>
+**[2024.07]** EMT-DLFR is selected as an [ESI Highly Cited Paper](https://www.webofscience.com/wos/woscc/full-record/WOS:001178971100010).<br>
+**[2023.11]** We upload the [poster](figs/EMT-DLFR_CCAC2023.pdf) of EMT-DLFR for CCAC 2023.<br>
 
 ## Overview
 
