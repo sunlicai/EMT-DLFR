@@ -128,4 +128,4 @@ If you think this project is helpful, please feel free to leave a star and cite 
 ## Contact 
 If you have any questions, feel free to contact us.
 
-Licai Sun: sunlicai2019@ia.ac.cn, or Zheng Lian: lianzheng2016@ia.ac.cn
+Licai Sun: licai.sun@oulu.fi, or Zheng Lian: lianzheng2016@ia.ac.cn
